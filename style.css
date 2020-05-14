@@ -1,0 +1,150 @@
+#logo {
+    height: 9rem;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    line-height: 5rem;
+    vertical-align: middle;
+    display: inline-block;
+    float: left;
+    margin-left: 0.6em;
+    font-family: 'Neuton', serif;
+    font-size: 250%;
+    position: static;
+    color: white
+}
+
+body {
+    background-color:#9ad7ea;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+#links {
+    height: 5rem;
+    z-index: 100;
+    position: absolute
+}
+
+
+
+
+
+.flex-container {
+
+    display: flex;
+    flex-direction: Row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.portfolio img {
+    max-height:30rem;
+    max-width: 100%;
+}
+
+
+
+#tube {
+    height: 25rem
+}
+
+#links {
+    height: 5rem;
+}
+
+#twitter {
+    height: 40rem
+}
+
+#insta {
+    height: 40rem
+}
+
+#links {
+    height: 5rem;
+}
+
+.socials {
+    width: 20rem;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+head {}
+
+#logo {
+    filter: brightness(200%);
+    transition: all 1s;
+}
+
+#logo:hover {
+    filter: brightness(100%);
+    transition: all 1s;
+}
+
+#background {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.svg {
+    position: absolute;
+}
+
+#balloon {
+    top: 10%;
+    height: 50rem;
+}
+
+#cloud1 {
+    top: 30%;
+    animation-name: clouds;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    width: 30rem;
+
+}
+
+@keyframes clouds {
+    from {
+        margin-left: 70%
+    }
+
+    to {
+        margin-left: -70%
+    }
+}
+
+#cloud2 {
+    top: 40%;
+    animation-direction: reverse;
+    animation-name: clouds;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    width: 40rem;
+
+}
+
+#port {
+    margin-top:5rem
+}
+
+#socials {
+    width:100%;
+    height:100%;
+}
